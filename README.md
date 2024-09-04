@@ -1,4 +1,4 @@
-# KYPool Aleo Miner
+# KY Pool Aleo Miner
 
 ## Introduction
 
@@ -15,14 +15,14 @@ $ ./aleo-prover -a [address]
 full help:
 
 ```
-KOI ALEO PoW Miner
+KY Pool ALEO PoW Miner
 
 Usage: aleo-prover [OPTIONS]
 
 Options:
       --new-address                Generate a new aleo address offline
   -w, --worker-name <WORKER_NAME>  miner worker name, default to local hostname
-  -s, --server <SERVER>            server address [default: aleo.koipool.com:3366]
+  -s, --server <SERVER>            server address [default: aleo.kypool.com:3366]
   -a, --address <ADDRESS>          ALEO client address, used for receiving rewards in solo mining; or for settling rewards in pool mining
       --solo                       solo mining mode, receive rewards directly in address, with 3% devfee
   -t, --threads <THREADS>          Number of threads, defaults to number of CPU threads
