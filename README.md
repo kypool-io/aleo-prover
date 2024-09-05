@@ -11,7 +11,7 @@ quick start:
 ```
 $ ./aleo-prover -a [address]
 
-eg.
+example:
 nohup ./aleo-prover -s aleo.kypool.io:3366 -a aleo1xxxxx   >> ./aleo.log 2>&1 &
 ```
 
@@ -48,6 +48,7 @@ Options:
 
 * When mining in solo mode, the miner has a 3% dev fee, which means 3% of the mining rewards will be sent to the developer's address.
 * When mining in pool mode, the pool will charge a fee, which is usually 1%, decided by the pool.
+* When mining in pool mode, daily UTC+0 settlement, more than 1 aleo will be transferred to the user's aleo address.
 * The dev fee is used to support the development of the miner and the maintenance of the pool.
 * The dev fee is excluded from the mining power.
 * The pool server is used even in solo mode, to provide the epoch hash and submit the mining results.
