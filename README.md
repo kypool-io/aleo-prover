@@ -9,7 +9,10 @@ ALEO pow miner from KY Pool, with full GPU support.
 quick start:
 
 ```
-$ ./aleo-prover -a [address] 
+$ ./aleo-prover -a [address]
+
+eg.
+nohup ./aleo-prover -s aleo.kypool.io:3366 -a aleo1xxxxx   >> ./aleo.log 2>&1 &
 ```
 
 full help:
